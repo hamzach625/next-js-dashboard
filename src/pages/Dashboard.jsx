@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import Sidebar from '../partials/Sidebar';
 import Header from '../partials/Header';
+import Savings from '../Components/Savings';
 
 
 
@@ -25,6 +26,7 @@ function Dashboard() {
         <main>
           {/* Here main section to add components with tailwind css layout to show Dashboard .... */}
           {/* Mind it every component render here to add in Dashboard Folder .... */}
+          <Savings/>
         </main>
 
       </div>
