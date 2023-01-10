@@ -11,8 +11,12 @@ function Header({
   return (
     <header className="sticky top-0 bg-white border-b border-slate-200 z-30">
       <div className="px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 -mb-px">
-
+        <div className="flex items-center  h-16 -mb-px">
+        <p class="ml-[5px] text-[16px] leading-[100%] font-[600] tracking-[0.1px] text-[#A7A7A7]">HOMEPAGE</p>
+        <p class="ml-[5px] text-[16px] leading-[100%] font-[600] tracking-[0.1px] text-[#A7A7A7] ml-[35px]">DASHBOARD</p>
+        <p class="ml-[5px] text-[16px] leading-[100%] font-[600] tracking-[0.1px] text-[#A7A7A7]  ml-[35px]">FEATURED</p>
+        <p class="ml-[5px] text-[16px] leading-[100%] font-[600] tracking-[0.1px] text-[#A7A7A7]  ml-[35px]">PRICING</p>
+        <p class="ml-[5px] text-[16px] leading-[100%] font-[600] tracking-[0.1px] text-[#A7A7A7]  ml-[35px]">CONTACT</p>
           {/* Header: Left side */}
           <div className="flex">
 

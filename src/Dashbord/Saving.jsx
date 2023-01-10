@@ -6,8 +6,8 @@ const Saving = () => {
             <section className='saving mt-[20px]'>
             <div class='flex items-center justify-between'>
                     <div>
-                        <p class='text-[16px] leading-[100%] font-[600] tracking-[0.1px] text-[#909090] mb-[15px]'>Dashboard / Savings</p>
-                        <h6 class='text-[28px] leading-[100%] font-[700] tracking-[0.1px] text-[#262626]'>Savings</h6>
+                        <p class='text-[16px] leading-[100%] font-[600] tracking-[0.1px] text-[#909090] mb-[15px] ml-[5px]'>Dashboard / Savings</p>
+                        <h6 class='text-[28px] leading-[100%] font-[700] tracking-[0.1px] text-[#262626] ml-[5px]'>Savings</h6>
                     </div>
                         <div class='flex items-center p-[10px] bg-[#FFFFFF]'>
                             <img src="\calendar.svg" alt="alt" />
