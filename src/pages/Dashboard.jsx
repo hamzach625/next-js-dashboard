@@ -23,7 +23,7 @@ function Dashboard() {
 
         {/*  Site header */}
         <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
-        <div class="grid grid-cols-3 gap-12">
+        <div class="grid grid-cols-3 gap-4 p-[30px]">
           <div class="col-span-2 ....">
           <main>
           {/* Here main section to add components with tailwind css layout to show Dashboard .... */}
@@ -34,7 +34,7 @@ function Dashboard() {
           <Recent />
         </main>
           </div>
-          <div class=""><Damon/></div>
+          <div class="bg-[#fff] p-[10px]"><Damon/></div>
         </div>
 
       </div>

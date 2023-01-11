@@ -76,27 +76,26 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
           </button>
           {/* Logo */}
           <NavLink end to="/" className="block">
-            <svg width="32" height="32" viewBox="0 0 32 32">
+            <svg width="167" height="43" viewBox="0 0 167 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000325978 31.9107L0.000329261 11.2102L10.3506 16.9604V26.2181L18.6308 30.8757L26.911 26.2181V16.9604L37.2613 11.2102V31.9107L18.6308 42.261L0.000325978 31.9107Z" fill="url(#paint0_linear_1_138)" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.17514 14.0852L0 11.2101L18.6305 0.859863L37.261 11.2101L32.0858 14.0852V29.323L18.6305 37.0858L5.17513 29.323L5.17514 14.0852ZM31.5252 14.3967L26.9107 16.9603V16.9028L18.6305 12.2451L10.3502 16.9028V16.9603L5.73577 14.3967V29.0046L18.6305 36.4439L31.5252 29.0046V14.3967Z" fill="url(#paint1_linear_1_138)" />
+              <path d="M51.1223 20.6419H59.7711V24.0535H51.1223V20.6419ZM51.4312 30.7455H47.2612V12.3754H60.878V15.787H51.4312V30.7455Z" fill="#125EF7" />
+              <path d="M63.701 30.7455V12.3754H67.8709V30.7455H63.701Z" fill="#125EF7" />
+              <path d="M72.1471 30.7455V12.3754H75.5963L86.2272 25.6019H84.554V12.3754H88.6725V30.7455H85.249L74.5925 17.519H76.2656V30.7455H72.1471Z" fill="#125EF7" />
+              <path d="M90.5675 30.7455L98.5985 12.3754H102.717L110.774 30.7455H106.398L99.8083 14.5273H101.456L94.8404 30.7455H90.5675ZM94.583 26.8091L95.6899 23.5812H104.956L106.089 26.8091H94.583Z" fill="#125EF7" />
+              <path d="M112.643 30.7455V12.3754H116.092L126.723 25.6019H125.05V12.3754H129.169V30.7455H125.745L115.089 17.519H116.762V30.7455H112.643Z" fill="#125EF7" />
+              <path d="M142.055 31.0604C140.665 31.0604 139.369 30.833 138.168 30.3781C136.984 29.9057 135.954 29.2409 135.079 28.3836C134.204 27.5264 133.518 26.5204 133.02 25.3657C132.539 24.211 132.299 22.9426 132.299 21.5604C132.299 20.1783 132.539 18.9099 133.02 17.7552C133.518 16.6005 134.204 15.5945 135.079 14.7372C135.971 13.88 137.01 13.2239 138.194 12.769C139.378 12.2966 140.673 12.0604 142.081 12.0604C143.642 12.0604 145.049 12.3404 146.302 12.9002C147.572 13.4426 148.636 14.2474 149.494 15.3146L146.817 17.8339C146.199 17.1166 145.513 16.583 144.758 16.2331C144.003 15.8657 143.179 15.682 142.286 15.682C141.446 15.682 140.673 15.822 139.97 16.1019C139.266 16.3818 138.657 16.7842 138.142 17.3091C137.627 17.8339 137.224 18.455 136.932 19.1723C136.658 19.8896 136.521 20.6857 136.521 21.5604C136.521 22.4352 136.658 23.2312 136.932 23.9486C137.224 24.6659 137.627 25.287 138.142 25.8118C138.657 26.3367 139.266 26.7391 139.97 27.019C140.673 27.2989 141.446 27.4389 142.286 27.4389C143.179 27.4389 144.003 27.2639 144.758 26.914C145.513 26.5466 146.199 25.9955 146.817 25.2607L149.494 27.7801C148.636 28.8473 147.572 29.6608 146.302 30.2207C145.049 30.7805 143.634 31.0604 142.055 31.0604Z" fill="#125EF7" />
+              <path d="M156.145 19.7759H164.82V23.0825H156.145V19.7759ZM156.454 27.3339H166.261V30.7455H152.31V12.3754H165.927V15.787H156.454V27.3339Z" fill="#125EF7" />
               <defs>
-                <linearGradient x1="28.538%" y1="20.229%" x2="100%" y2="108.156%" id="logo-a">
-                  <stop stopColor="#A5B4FC" stopOpacity="0" offset="0%" />
-                  <stop stopColor="#A5B4FC" offset="100%" />
+                <linearGradient id="paint0_linear_1_138" x1="6.95519" y1="14.3399" x2="34.6576" y2="56.4302" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#2F66EE" />
+                  <stop offset="1" stop-color="#012377" />
                 </linearGradient>
-                <linearGradient x1="88.638%" y1="29.267%" x2="22.42%" y2="100%" id="logo-b">
-                  <stop stopColor="#38BDF8" stopOpacity="0" offset="0%" />
-                  <stop stopColor="#38BDF8" offset="100%" />
+                <linearGradient id="paint1_linear_1_138" x1="6.95487" y1="4.51119" x2="40.9505" y2="48.7843" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#2F66EE" />
+                  <stop offset="1" stop-color="#012377" />
                 </linearGradient>
               </defs>
-              <rect fill="#6366F1" width="32" height="32" rx="16" />
-              <path d="M18.277.16C26.035 1.267 32 7.938 32 16c0 8.837-7.163 16-16 16a15.937 15.937 0 01-10.426-3.863L18.277.161z" fill="#4F46E5" />
-              <path
-                d="M7.404 2.503l18.339 26.19A15.93 15.93 0 0116 32C7.163 32 0 24.837 0 16 0 10.327 2.952 5.344 7.404 2.503z"
-                fill="url(#logo-a)"
-              />
-              <path
-                d="M2.223 24.14L29.777 7.86A15.926 15.926 0 0132 16c0 8.837-7.163 16-16 16-5.864 0-10.991-3.154-13.777-7.86z"
-                fill="url(#logo-b)"
-              />
             </svg>
           </NavLink>
         </div>
@@ -109,7 +108,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
               <span className="hidden lg:block lg:sidebar-expanded:hidden 2xl:hidden text-center w-6" aria-hidden="true">
                 •••
               </span>
-              <span className="lg:hidden lg:sidebar-expanded:block 2xl:block">Pages</span>
+              <span className="lg:hidden lg:sidebar-expanded:block 2xl:block"></span>
             </h3>
             <ul className="mt-3">
               {/* Dashboard */}
@@ -128,21 +127,13 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                       >
                         <div className="flex items-center justify-between">
                           <div className="flex items-center">
-                            <svg className="shrink-0 h-6 w-6" viewBox="0 0 24 24">
-                              <path
-                                className={`fill-current text-slate-400 ${(pathname === '/' || pathname.includes('dashboard')) && '!text-indigo-500'
-                                  }`}
-                                d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0z"
-                              />
-                              <path
-                                className={`fill-current text-slate-600 ${(pathname === '/' || pathname.includes('dashboard')) && 'text-indigo-600'}`}
-                                d="M12 3c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9z"
-                              />
-                              <path
-                                className={`fill-current text-slate-400 ${(pathname === '/' || pathname.includes('dashboard')) && 'text-indigo-200'}`}
-                                d="M12 15c-1.654 0-3-1.346-3-3 0-.462.113-.894.3-1.285L6 6l4.714 3.301A2.973 2.973 0 0112 9c1.654 0 3 1.346 3 3s-1.346 3-3 3z"
-                              />
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M3.8 7.6C3.8 5.50132 5.50132 3.8 7.6 3.8C9.69868 3.8 11.4 5.50132 11.4 7.6C11.4 9.69868 9.69868 11.4 7.6 11.4C5.50132 11.4 3.8 9.69868 3.8 7.6Z" fill="white" />
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.6 16.4C12.6 14.3013 14.3013 12.6 16.4 12.6C18.4987 12.6 20.2 14.3013 20.2 16.4C20.2 18.4987 18.4987 20.2 16.4 20.2C14.3013 20.2 12.6 18.4987 12.6 16.4Z" fill="white" />
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M20.2 7.6C20.2 5.50132 18.4987 3.8 16.4 3.8C14.3013 3.8 12.6 5.50132 12.6 7.6C12.6 9.69868 14.3013 11.4 16.4 11.4C18.4987 11.4 20.2 9.69868 20.2 7.6Z" fill="white" />
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4 16.4C11.4 14.3013 9.69868 12.6 7.6 12.6C5.50132 12.6 3.8 14.3013 3.8 16.4C3.8 18.4987 5.50132 20.2 7.6 20.2C9.69868 20.2 11.4 18.4987 11.4 16.4Z" fill="white" />
                             </svg>
+
                             <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
                               Dashboard
                             </span>
@@ -155,7 +146,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                           </div>
                         </div>
                       </a>
-                      <div className="lg:hidden lg:sidebar-expanded:block 2xl:block">
+                      {/* <div className="lg:hidden lg:sidebar-expanded:block 2xl:block">
                         <ul className={`pl-9 mt-1 ${!open && 'hidden'}`}>
                           <li className="mb-1 last:mb-0">
                             <NavLink
@@ -193,7 +184,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                             </NavLink>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </React.Fragment>
                   );
                 }}
@@ -224,11 +215,11 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                   </div>
                   <div className="flex items-center justify-between">
                     <div className="grow flex items-center mt-[29px] mb-[29px]">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM17.69 14.05C17.65 14.14 17.6 14.22 17.53 14.29L14.58 17.24C14.43 17.39 14.24 17.46 14.05 17.46C13.86 17.46 13.67 17.39 13.52 17.24C13.23 16.95 13.23 16.47 13.52 16.18L15.19 14.51H7C6.59 14.51 6.25 14.17 6.25 13.76C6.25 13.35 6.59 13.01 7 13.01H17C17.1 13.01 17.19 13.03 17.29 13.07C17.47 13.15 17.62 13.29 17.7 13.48C17.77 13.66 17.77 13.86 17.69 14.05ZM17 10.99H7C6.9 10.99 6.81 10.97 6.71 10.93C6.53 10.85 6.38 10.71 6.3 10.52C6.22 10.34 6.22 10.13 6.3 9.95C6.35 9.86 6.4 9.78 6.47 9.71L9.42 6.76C9.71 6.47 10.19 6.47 10.48 6.76C10.77 7.05 10.77 7.53 10.48 7.82L8.81 9.49H17C17.41 9.49 17.75 9.83 17.75 10.24C17.75 10.65 17.41 10.99 17 10.99Z" fill="#A5A9B4"/>
-</svg>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM17.69 14.05C17.65 14.14 17.6 14.22 17.53 14.29L14.58 17.24C14.43 17.39 14.24 17.46 14.05 17.46C13.86 17.46 13.67 17.39 13.52 17.24C13.23 16.95 13.23 16.47 13.52 16.18L15.19 14.51H7C6.59 14.51 6.25 14.17 6.25 13.76C6.25 13.35 6.59 13.01 7 13.01H17C17.1 13.01 17.19 13.03 17.29 13.07C17.47 13.15 17.62 13.29 17.7 13.48C17.77 13.66 17.77 13.86 17.69 14.05ZM17 10.99H7C6.9 10.99 6.81 10.97 6.71 10.93C6.53 10.85 6.38 10.71 6.3 10.52C6.22 10.34 6.22 10.13 6.3 9.95C6.35 9.86 6.4 9.78 6.47 9.71L9.42 6.76C9.71 6.47 10.19 6.47 10.48 6.76C10.77 7.05 10.77 7.53 10.48 7.82L8.81 9.49H17C17.41 9.49 17.75 9.83 17.75 10.24C17.75 10.65 17.41 10.99 17 10.99Z" fill="#A5A9B4" />
+                      </svg>
                       <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                      Exchange
+                        Exchange
                       </span>
                     </div>
                     {/* Badge */}
@@ -253,7 +244,22 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                     </div> */}
                   </div>
                   <div className="flex items-center justify-between">
-                    <div className="grow flex items-center">
+                    <div className="grow flex items-center mt-[29px] mb-[29px]">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.34 14.49L18.34 12.83C18.13 12.46 17.94 11.76 17.94 11.35V8.82C17.94 6.47 16.56 4.44 14.57 3.49C14.05 2.57 13.09 2 11.99 2C10.9 2 9.92 2.59 9.4 3.52C7.45 4.49 6.1 6.5 6.1 8.82V11.35C6.1 11.76 5.91 12.46 5.7 12.82L4.69 14.49C4.29 15.16 4.2 15.9 4.45 16.58C4.69 17.25 5.26 17.77 6 18.02C7.94 18.68 9.98 19 12.02 19C14.06 19 16.1 18.68 18.04 18.03C18.74 17.8 19.28 17.27 19.54 16.58C19.8 15.89 19.73 15.13 19.34 14.49Z" fill="#A5A9B4" />
+                        <path d="M14.83 20.01C14.41 21.17 13.3 22 12 22C11.21 22 10.43 21.68 9.88 21.11C9.56 20.81 9.32 20.41 9.18 20C9.31 20.02 9.44 20.03 9.58 20.05C9.81 20.08 10.05 20.11 10.29 20.13C10.86 20.18 11.44 20.21 12.02 20.21C12.59 20.21 13.16 20.18 13.72 20.13C13.93 20.11 14.14 20.1 14.34 20.07C14.5 20.05 14.66 20.03 14.83 20.01Z" fill="#A5A9B4" />
+                      </svg>
+                      <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                        Notifications
+                      </span>
+                    </div>
+                    {/* Badge */}
+                    {/* <div className="flex flex-shrink-0 ml-2">
+                      <span className="inline-flex items-center justify-center h-5 text-xs font-medium text-white bg-indigo-500 px-2 rounded">4</span>
+                    </div> */}
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <div className="grow flex items-center mt-[29px] mb-[29px]">
                       <svg className="shrink-0 h-6 w-6" viewBox="0 0 24 24">
                         <path
                           className={`fill-current text-slate-600 ${pathname.includes('messages') && 'text-indigo-500'}`}
@@ -280,13 +286,44 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
           {/* More group */}
           <div>
             <h3 className="text-xs uppercase text-slate-500 font-semibold pl-3">
-              <span className="hidden lg:block lg:sidebar-expanded:hidden 2xl:hidden text-center w-6" aria-hidden="true">
-                •••
+              <span className=" text-left w-6" aria-hidden="true">
+                <h3 class="text-[18px] leading-[100%] font-[600] tracking-[0.1px] text-[#125EF7] mt-[100px]">Account</h3>
               </span>
               {/* <span className="lg:hidden lg:sidebar-expanded:block 2xl:block">More</span> */}
             </h3>
           </div>
+          
+          <div className="flex items-center justify-between">
+            <div className="grow flex items-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.34 14.49L18.34 12.83C18.13 12.46 17.94 11.76 17.94 11.35V8.82C17.94 6.47 16.56 4.44 14.57 3.49C14.05 2.57 13.09 2 11.99 2C10.9 2 9.92 2.59 9.4 3.52C7.45 4.49 6.1 6.5 6.1 8.82V11.35C6.1 11.76 5.91 12.46 5.7 12.82L4.69 14.49C4.29 15.16 4.2 15.9 4.45 16.58C4.69 17.25 5.26 17.77 6 18.02C7.94 18.68 9.98 19 12.02 19C14.06 19 16.1 18.68 18.04 18.03C18.74 17.8 19.28 17.27 19.54 16.58C19.8 15.89 19.73 15.13 19.34 14.49Z" fill="#A5A9B4" />
+                <path d="M14.83 20.01C14.41 21.17 13.3 22 12 22C11.21 22 10.43 21.68 9.88 21.11C9.56 20.81 9.32 20.41 9.18 20C9.31 20.02 9.44 20.03 9.58 20.05C9.81 20.08 10.05 20.11 10.29 20.13C10.86 20.18 11.44 20.21 12.02 20.21C12.59 20.21 13.16 20.18 13.72 20.13C13.93 20.11 14.14 20.1 14.34 20.07C14.5 20.05 14.66 20.03 14.83 20.01Z" fill="#A5A9B4" />
+              </svg>
+
+              <span className="text-sm font-medium  text-[16px] leading-[100%] font-[600] tracking-[0.1px] text-[#A5A9B4]  ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                Help
+              </span>
+            </div>
+          </div>
+          <div className="flex items-center justify-between">
+            <div className="grow flex items-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.34 14.49L18.34 12.83C18.13 12.46 17.94 11.76 17.94 11.35V8.82C17.94 6.47 16.56 4.44 14.57 3.49C14.05 2.57 13.09 2 11.99 2C10.9 2 9.92 2.59 9.4 3.52C7.45 4.49 6.1 6.5 6.1 8.82V11.35C6.1 11.76 5.91 12.46 5.7 12.82L4.69 14.49C4.29 15.16 4.2 15.9 4.45 16.58C4.69 17.25 5.26 17.77 6 18.02C7.94 18.68 9.98 19 12.02 19C14.06 19 16.1 18.68 18.04 18.03C18.74 17.8 19.28 17.27 19.54 16.58C19.8 15.89 19.73 15.13 19.34 14.49Z" fill="#A5A9B4" />
+                <path d="M14.83 20.01C14.41 21.17 13.3 22 12 22C11.21 22 10.43 21.68 9.88 21.11C9.56 20.81 9.32 20.41 9.18 20C9.31 20.02 9.44 20.03 9.58 20.05C9.81 20.08 10.05 20.11 10.29 20.13C10.86 20.18 11.44 20.21 12.02 20.21C12.59 20.21 13.16 20.18 13.72 20.13C13.93 20.11 14.14 20.1 14.34 20.07C14.5 20.05 14.66 20.03 14.83 20.01Z" fill="#A5A9B4" />
+              </svg>
+
+              <span className="text-sm font-medium  text-[16px] leading-[100%] font-[600] tracking-[0.1px] text-[#A5A9B4]  ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+              Setting
+              </span>
+            </div>
+          </div>
+          <div class="">
+
+          <button class="flex text-[16px] leading-[100%] font-[600] tracking-[0.1px] text-[#FF2142] px-[12px] py-[15px] bg-[pink] rounded-[8px] w-[100%]"><img src='\login.svg' alt='alt' class="mr-[8px]"/>  Rejected</button>
+          </div>
+         
         </div>
+        
 
         {/* Expand / collapse button */}
         <div className="pt-3 hidden lg:inline-flex 2xl:hidden justify-end mt-auto">
